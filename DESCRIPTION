@@ -1,0 +1,20 @@
+Package: MAGMA
+Title: Custom package
+Version: 0.0.1
+Authors@R: c(person("vineet", "jha", role = c("aut", "cre"), email = "vineetbioinfo@gmail.com") )
+BugReports: https://github.com/sneha-matrix/MAGMA/issues
+Description: Yet to come.
+Imports:
+	ggplot2,
+	Rtsne
+	
+Suggests:
+	covr,
+    rmarkdown,
+    testthat,
+	vdiffr
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
